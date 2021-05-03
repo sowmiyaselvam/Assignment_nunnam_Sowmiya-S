@@ -1,0 +1,25 @@
+Array created successfully
+         400039 function calls in 0.094 seconds
+
+   Ordered by: call count
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   400000    0.034    0.000    0.034    0.000 {method 'append' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        3    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/ipykernel/iostream.py:93(_event_pipe)
+        3    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/ipykernel/iostream.py:195(schedule)
+        3    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/zmq/sugar/socket.py:357(send)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/threading.py:1104(is_alive)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/threading.py:506(is_set)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/threading.py:1062(_wait_for_tstate_lock)
+        2    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/ipykernel/iostream.py:307(_is_master_process)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/ipykernel/iostream.py:320(_schedule_flush)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/ipykernel/iostream.py:382(write)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 <ipython-input-1-66b56f7cc511>:6(print_statement)
+        1    0.004    0.004    0.094    0.094 <ipython-input-1-66b56f7cc511>:10(main)
+        1    0.055    0.055    0.090    0.090 <ipython-input-1-66b56f7cc511>:1(create_array)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
